@@ -72,7 +72,7 @@ public class InitializrProperties extends InitializrConfiguration {
 	 * GroupId metadata.
 	 */
 	@JsonIgnore
-	private final SimpleElement groupId = new SimpleElement("com.example");
+	private final SimpleElement groupId = new SimpleElement("ly.integreat");
 
 	/**
 	 * ArtifactId metadata.
@@ -97,7 +97,7 @@ public class InitializrProperties extends InitializrConfiguration {
 	 */
 	@JsonIgnore
 	private final SimpleElement description = new SimpleElement(
-			"Demo project for Spring Boot");
+			"Integreatly project");
 
 	/**
 	 * Package name metadata.
