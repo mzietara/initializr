@@ -936,12 +936,12 @@ initializr:
       default: false
   javaVersions:
     - id: 10
-      default: true
+      default: false
     - id: 9
       default: false
     - id: 1.8
       name: 8
-      default: false
+      default: true
   languages:
     - name: Java
       id: java
