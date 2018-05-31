@@ -6,9 +6,9 @@ pipeline {
 
   }
   stages {
-    stage('') {
+    stage('error') {
       steps {
-        sh 'sh \'./mvnw -X clean install -Pfull\''
+        sh './mvnw -X clean install -Pfull'
       }
     }
   }
